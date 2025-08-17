@@ -43,3 +43,5 @@ you must return to end a while loop or def and usually you need to return aka ou
   if number % 3 == 0 or number % 5 == 0:
   ```
  The correct way is to ask two complete, separate questions and connect them with or so it actually checks true/false instead of assigning a "more correct" numerical value to the variable "multiple"
+
+- My takeaway from this is that I need a larger knowledge base before trying CodeWars trainings, so then hopefully there is just one missing part of the puzzle that I need to research instead of trying to fix/remake my entire code.
