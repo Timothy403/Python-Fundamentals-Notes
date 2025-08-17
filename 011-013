@@ -1,0 +1,13 @@
+### ###
+def is used to create a function which can be recalled later
+what you write after def is what you are calling it
+we use spaces in the lines to show what is in the "body" of a function such as def or while
+whats in the brackets is the parameter, an input
+and input must be returned as an output or true/false 
+colon is used to signal the start and end of a function (def ends with return)
+when you type something in the brackets it becomes a variable just like when you type
+```Python
+number = 1
+def example(num):    # number and num are now both variables we made 
+  return num + 1
+```
