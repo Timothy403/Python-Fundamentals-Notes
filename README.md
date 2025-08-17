@@ -4,4 +4,4 @@ This repository contains my personal study notes for the Makers Academy 'Intro t
 
 ## Topics Covered
 
-* (I will list the topics here as I complete them)
+* math and operators
