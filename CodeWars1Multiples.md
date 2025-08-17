@@ -37,7 +37,7 @@ you must return to end a while loop or def and usually you need to return aka ou
 
 - lastly I understood I needed to use % to check for a multiple but I did not know the correct syntax, I wrote:
   ```Python
-  multiple = (number % 5) or (numebr % 3)
+  multiple = (number % 5) or (numeber % 3)
   if multiple == 0:
   # and the correct way is:
   if number % 3 == 0 or number % 5 == 0:
