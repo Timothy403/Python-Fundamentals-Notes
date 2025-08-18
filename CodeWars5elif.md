@@ -33,12 +33,16 @@ if score <= 60:
   return "F"
 elif score >= 60:
   return "D"
+elif score >= 70:
+  return "C"
 ```
-but every score would be greater than 60 so all would be returned as "F", I fixed this by adding an "and"
+but every score would be greater than 60 so all would be returned as "F" or "D", I fixed this by adding an "and"
 ```Python
 if score <= 60:
   return "F"
 elif score >= 60 and score <= 70:
   return "D"
+elif score >= 70 and score <= 80:
+  return "C"
 ```
-this works however it is too long and sligtly confusing.
+this works however it is too long and sligtly confusing, I now know that logically it makes sense to start with the higher scores so it either returns them and finishes, or moves onto the next elif if it fails but never moving on when it has succeeded
