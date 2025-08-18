@@ -17,4 +17,4 @@ def sum_array(a):
 
 ### ### Notes
 
-remember you need to use "len" as its a list 
+I learned about "len" and that since the input is a list instead of a integer I need to check if the length is greater than one instead of the value
