@@ -14,5 +14,12 @@ for x in range(5):
 With
 
 ```Python
-squared_numbers = [x ** 2 for x in range(5)]
+squared_numbers = [x ** 2 for x in range(5)] #<------ 
 ```
+                     ^       ^         ^
+            for each x,      ^         ^
+             square it       ^         ^
+                             ^         ^        
+                       Loop through    ^
+                                       ^
+                                       numbers 0 to 4
