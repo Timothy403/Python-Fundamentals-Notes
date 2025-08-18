@@ -14,3 +14,7 @@ def sum_array(a):
       numsum = numsum + x
   return numsum
 ```
+
+### ### Notes
+
+remember you need to use "len" as its a list 
