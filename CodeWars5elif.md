@@ -45,4 +45,4 @@ elif score >= 60 and score <= 70:
 elif score >= 70 and score <= 80:
   return "C"
 ```
-this works however it is too long and sligtly confusing, I now know that logically it makes sense to start with the higher scores so it either returns them and finishes, or moves onto the next elif if it fails but never moving on when it has succeeded
+this works however it is too long and sligtly confusing, I now know that logically it makes sense to start with the higher scores so it either returns them and finishes, or moves onto the next elif if it fails. Instead of always succeeding at the first step.
