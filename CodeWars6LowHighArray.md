@@ -35,3 +35,10 @@ def sum_array(arr):
     return total
 ```
 Which didn't work because when a None value would be inputed it would try and sort it before reaching my if return 0 clause. So now I know the importance of always starting your program by checking for bad inputs.
+
+
+# Sidenote
+Apparently you can also just use 
+```Python
+return sum(arr) - max(arr) - min(arr)
+```
