@@ -1,4 +1,4 @@
-### ### The KataTraining
+ ### The KataTraining
 
 "Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0."
 
@@ -15,6 +15,6 @@ def sum_array(a):
   return numsum
 ```
 
-### ### Notes
+ ### Notes
 
 I learned about "len" and that since the input is a list instead of a integer I need to check if the length is greater than one instead of the value
