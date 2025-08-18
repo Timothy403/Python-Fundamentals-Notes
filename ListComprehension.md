@@ -16,10 +16,10 @@ With
 ```Python
 squared_numbers = [x ** 2 for x in range(5)] #<------Collect the result and put it into a list []
 ```
-                       ^       ^         ^
-              for each x,      ^         ^
-               square it       ^         ^
-                               ^         ^        
-                         Loop through    ^
-                                         ^
-                                         numbers 0 to 4
+                       ^         ^         ^
+              for each x,        ^         ^
+               square it         ^         ^
+                                 ^         ^        
+                           Loop through    ^
+                                           ^
+                                           numbers 0 to 4
