@@ -19,8 +19,9 @@ squared_numbers = [x ** 2 for x in range(5)] #]<------Collect the result and put
                        ^         ^         ^
               for each x,        ^         ^
                square it         ^         ^
-                   c            ^         ^        
+                   c             ^         ^        
                            Loop through    ^
-                                 a        ^
-                                           numbers 0 to 4
-a,b,c,d = logical order                          b
+                                 a         ^
+    a,b,c,d = logical order               numbers 0 to 4
+                                                 b
+                       
