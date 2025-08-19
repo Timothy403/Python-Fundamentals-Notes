@@ -6,7 +6,7 @@ I am now also including CodeWars trainings so I can revise them, complete them a
 
 ## Topics Covered
 
-* Math and operators
+- Math and operators
 * Boolean / logic
 * Strings
 * Indexing
