@@ -8,11 +8,11 @@ I am now also including CodeWars trainings so I can revise them, complete them a
 
 - Math and operators
 - Boolean / logic
-+ Strings
-= Indexing
-* Lists
-* Loops
-* Data structures
+- Strings
+- Indexing
+- Lists
+- Loops
+- Data structures
 
 ### Katas Kyu 8 / 7 / 6
 
