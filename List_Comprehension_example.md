@@ -14,7 +14,7 @@ for x in range(5):
 With
 
 ```Python
-squared_numbers = [x ** 2 for x in range(5)] #<------Collect the result and put it into a list []
+squared_numbers = [x ** 2 for x in range(5)] #]<------Collect the result and put it into a list []
 ```
                        ^         ^         ^
               for each x,        ^         ^
