@@ -27,6 +27,6 @@ def digitize(n):
     return [int(x) for x in str(n)[::-1]]
 ```
 
-the map function takes the given function (int) and applies it to every input (list) , which in this case, has first been turned into a string and reversed.
+The map function takes the given function (int) and applies it to every input (list) , which in this case, has first been turned into a string and reversed.
 
  [::-1] is Slice Notation, start:stop:step. The :: indicate that start:stop: are set to default and the -1 (step) tells Python to start at the end and step back (-) once at a time.
