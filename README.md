@@ -22,13 +22,14 @@ I am now also including CodeWars trainings so I can revise them, complete them a
 * Sum Arrays
 * Square(n) Sum
 --------------------------------------------------
+* 
+* 
+* 
+* 
+* 
+*
+---------------------------------------------------
 * Multiples of 3 or 5
-* 
-* 
-* 
-* 
-*
-*
 *
 *
 *
