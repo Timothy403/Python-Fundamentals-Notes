@@ -7,4 +7,5 @@ I am now also including CodeWars trainings so I can revise them, complete them a
 ## Topics Covered
 
 * math and operators
-* 
+* Lists
+* Data structures
