@@ -6,7 +6,7 @@ Note: If a number is a multiple of both 3 and 5, only count it once."
 
 
 ### What I learned ###
-you can have a while loop or "if" statement without an "else"
+You can have a while loop or "if" statement without an "else"
  I realised that the "i" in "for i in range"    is a placeholder variable created when you use a for loop
   for "" in    goes through every item in a list, range is a numerical list 
 ```Python
@@ -26,14 +26,14 @@ def solution(number):
 ```
 
 - I think this is stupidly simple but need to be noted..
-you make a variable and make it = to 0 so it can exist and be empty and then in a loop you can use it as a sort of counter or storage by saying:
+You make a variable and make it = to 0 so it can exist and be empty and then in a loop you can use it as a sort of counter or storage by saying:
 "x = x" and then some operation after it, im realising as i write that it would have to be a "1" instead of a "0" if you want to multiply
 and then
 ```Python
 total_sum = 0
 total_sum = total_sum + current_number
 ```
-you must return to end a while loop or def and usually you need to return aka output the data, in this case total_sum, for it to be useful
+You must return to end a while loop or def and usually you need to return aka output the data, in this case total_sum, for it to be useful
 
 - lastly I understood I needed to use % to check for a multiple but I did not know the correct syntax, I wrote:
   ```Python
