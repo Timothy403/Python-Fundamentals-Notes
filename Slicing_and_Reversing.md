@@ -2,7 +2,7 @@
 ```Python
 list_from_number = [int(character) for character in str(n)]
 ```
-first I thought to put the *step* into the expression "int(character)[::-1]" but it does not work as reversing is not an operator but a syntax operator.
+At first I thought to put the *step* into the expression "int(character)[::-1]" but it does not work as reversing is not an operator but a syntax operator.
 Meaning it has to be attatched to an object, in this case, it has to be the list once it is created OR *str(n)* which is also an already completed object.
 * Therefore you have have the choice to place it:
 ```Python
