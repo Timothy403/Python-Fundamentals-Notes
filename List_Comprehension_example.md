@@ -14,12 +14,13 @@ for x in range(5):
 With
 
 ```Python
-squared_numbers = [x ** 2 for x in range(5)] #]<------Collect the result and put it into a list []
+squared_numbers = [x ** 2 for x in range(5)] #]<------Collect the result and put it into a list [] d
 ```
                        ^         ^         ^
               for each x,        ^         ^
                square it         ^         ^
-                                 ^         ^        
+                   c            ^         ^        
                            Loop through    ^
-                                           ^
+                                 a        ^
                                            numbers 0 to 4
+a,b,c,d = logical order                          b
