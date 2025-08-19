@@ -21,8 +21,10 @@ def sum_array(arr):
 This might look weird but it still works because the sorted function is carried out before the slicing and then the sum is carried out after the slicing,
 this will always be true as it has to follow *operator precedence*
 
-You may have noticed how in the first example the *sorted* function required a new variable,       * side-note- you cannot use .sort to create a new variable as it returns *None*
+You may have noticed how in the first example the *sorted* function required a new variable,       
 obviously this is because you need to call it again to do something with it,
 so why is this not the case in the second example?
 The one-line solution works without a new variable because it chains a series of operations together, passing the result of each step directly to the next
 aka you don't need to hold the results 
+
+* side-note- you cannot use .sort to create a new variable as it returns *None*
