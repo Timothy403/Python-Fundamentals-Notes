@@ -11,6 +11,8 @@ In python, working inwards to outwards, "item" is the generator which provides i
 list_from_number = [int(x) for x in str(n)]
 #for improved learning/readability ill write it as
 list_from_number = [int(character) for character in str(n)]
-#because even though it ends up as a integer/digit and it comes from a digit/number, the for loop is going through it as iterable characters after it has been turned into a string and the expression is transforming it back into an integer
+#because even though it ends up as a integer/digit and it comes from a digit/number,
+the for loop is going through it as iterable characters after it has been turned into a string
+ and the expression is transforming it back into an integer
 ```
 ### When to use it
