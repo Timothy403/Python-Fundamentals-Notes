@@ -7,9 +7,9 @@ I am now also including CodeWars trainings so I can revise them, complete them a
 ## Topics Covered
 
 - Math and operators
-* Boolean / logic
-* Strings
-* Indexing
+- Boolean / logic
++ Strings
+= Indexing
 * Lists
 * Loops
 * Data structures
