@@ -10,3 +10,8 @@ However I would like to take note and remember of a cleaner way, using "sum" ins
 def square_sum(numbers):
   return sum(pow(x, 2) for x in numbers)
 ```
+Now I know this is called a "generator expression" 
+
+```Python
+def square_sum(numbers):
+    return sum(x**2 for x in numbers)
