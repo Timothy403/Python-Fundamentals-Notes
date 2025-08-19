@@ -18,10 +18,10 @@ squared_numbers = [x ** 2 for x in range(5)] #]<------Collect the result and put
 ```
                        ^         ^         ^
               for each x,        ^         ^
-               square it         ^         ^
+               square it         ^         ^                               a,b,c,d = logical order
                    c             ^         ^        
                            Loop through    ^
                                  a         ^
-    a,b,c,d = logical order               numbers 0 to 4
+                                           numbers 0 to 4
                                                  b
                        
