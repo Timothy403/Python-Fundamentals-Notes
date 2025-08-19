@@ -7,7 +7,7 @@ Meaning it has to be attatched to an object, in this case, it has to be the list
 * Therefore you have have the choice to place it:
 ```Python
 list_from_number = [int(character) for character in str(n)][::-1]     #here
-#or
+                                                                  #or
 list_from_number = [int(character) for character in str(n)[::-1]]     #here
 ```
 
