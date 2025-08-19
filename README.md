@@ -7,11 +7,11 @@ I am now also including CodeWars trainings so I can revise them, complete them a
 ## Topics Covered
 
 - Math and operators
-- Boolean / logic
++ Boolean / logic
 - Strings
-- Indexing
++ Indexing
 - Lists
-- Loops
++ Loops
 - Data structures
 
 ### Katas Kyu 8 / 7 / 6
