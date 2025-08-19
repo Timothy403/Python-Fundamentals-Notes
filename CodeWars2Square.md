@@ -1,4 +1,4 @@
-I tried an easier one and had much better success
+I tried an easier Kata and had much better success
 ```Python
 def square_sum(numbers):
     total = 0
