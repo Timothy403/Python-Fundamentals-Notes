@@ -27,4 +27,4 @@ so why is this not the case in the second example?
 The one-line solution works without a new variable because it chains a series of operations together, passing the result of each step directly to the next
 aka you don't need to hold the results 
 
-* side-note- you cannot use .sort to create a new variable as it returns *None*
+* side-note you cannot use .sort to create a new variable as it returns *None*
