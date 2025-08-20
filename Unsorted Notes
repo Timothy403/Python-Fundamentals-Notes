@@ -12,3 +12,5 @@ I will probably go back to my other notes and try to make them more concise, thi
 * abs()   
 * type
 * str/int/list, how to change one into the other
+
+(return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
