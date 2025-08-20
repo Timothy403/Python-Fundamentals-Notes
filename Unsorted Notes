@@ -22,4 +22,4 @@ If you want to strip all whitespace in a string (\t, \n, etc.), use split()+join
 
 any comparison operator ( >, <, ==, != ) returns a boolean value so "True" and *if* are not needed in this example, return True if bullets >= dragons * 2 else False
 
-Time complexity: comparing different solutions based on their readability and time complexity
+thinking about time complexity, comparing different solutions based on their readability and time complexity
