@@ -17,3 +17,5 @@ I will probably go back to my other notes and try to make them more concise, thi
 (return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
 
 If you want to strip all whitespace in a string (\t, \n, etc.), use split()+join() as return "".join(s.split())
+
+ bitwise ops:  return number * 9 if (number & 1) else number * 8    -    is slightly faster for the cpu to process than    -   return number * 9 if number % 2 else number * 8
