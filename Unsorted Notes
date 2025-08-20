@@ -21,3 +21,5 @@ If you want to strip all whitespace in a string (\t, \n, etc.), use split()+join
  bitwise ops:  return number * 9 if (number & 1) else number * 8    -    is slightly faster for the cpu to process than    -   return number * 9 if number % 2 else number * 8
 
 any comparison operator ( >, <, ==, != ) returns a boolean value so "True" and *if* are not needed in this example, return True if bullets >= dragons * 2 else False
+
+Time complexity: comparing different solutions based on their readability and time complexity
