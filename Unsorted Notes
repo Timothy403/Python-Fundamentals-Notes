@@ -2,5 +2,13 @@
 
 I will probably go back to my other notes and try to make them more concise, this file can store my messy thought/learning process.
 
-* isinstance() <--------------- Revise
-* abs()        <--------------- Revise
+### Revise
+* isinstance() 
+* ZeroDivisionError: division by zero   = if not numbers:
+* enumerate (index loop)
+* .join()
+* capitalize vs upper
+* max and min
+* abs()   
+* type
+* str/int/list, how to change one into the other
