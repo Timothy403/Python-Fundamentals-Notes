@@ -28,4 +28,4 @@ These are the two solutions I will be looking at, the later, less *Pythonic* sol
 
 If i want to use *side effects* (modifying an existing list) I need to use a for loop instead of a list comprehension
 Don't assume a function like *in* would work in Python as it seems in english
-Don't spend so long on a question out of my league, ask and learn instead of creating more problems with more convoluted code
+Don't spend so long being stuck on a question, ask and learn instead of creating more problems with more convoluted code
