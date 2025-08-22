@@ -1,22 +1,35 @@
 ### Repeated notes or notes that will be sorted in the future
 
-I will probably go back to my other notes and try to make them more concise, this file can store my messy thought/learning process.
+ I will probably go back to my other notes and try to make them more concise, this file can store my messy thought/learning process.
 
 ### Revise
+
  isinstance() - can check classes as well as subclasses, you use it to check if data was inputed in the type you wanted or to do two different things based on data type.
+
  ZeroDivisionError - division by zero   = if not numbers:
- enumerate (index loop) - Loop over an iterable and return the item as well as its index, avoids manual counters and works with more than just lists.
+
+ ENUMERATE (index loop) - Loop over an iterable and return its index then item, avoids manual counters and works with more than just lists.
+
  .join() - joins strings using a seperator, using '' as a "seperator" just squishes them together. 
- capitalize vs upper - capitalize converts the first character of a string into uppercase, upper converts all. you can use upper/lower with enumerate(index) on repeating/joined identical string.
- max and min - can be used on any iterable, can be given specific keys to change the default comparison. e.g. print(max(words, key=len)) now the max index would be chosen instead of the first character alphabetically
+
+ CAPITALIZE vs UPPER - capitalize converts the first character of a string into uppercase, upper converts all. you can use upper/lower with enumerate(index) on repeating/joined identical string.
+
+ MAX and MIN - can be used on any iterable, can be given specific keys to change the default comparison. e.g. print(max(words, key=len)) now the max index would be chosen instead of the first character alphabetically
+
  abs() - gives you the distance from 0 so you can use it to make a negative number positive since you can't use + the same way you can use -
+
  type - 
+
  str/int/list, how to change one into the other -
+
  .replace - replaces old with(,) new     new = original.replace(old, new[, count])     can remove spaces in a string by using     variable.replace(" ", "")
+
  import heapq (instead of using sort) - O(n) instead of O(n log n), small1, small2 = heapq.nsmallest(k, iterable)   Can also use a key such as (2, iterable, key=len)   default = ascending order
+
  .copy to makeup for .remove - .remove and .append mutate your original, use .copy before and use that if you want to leave the original intact                                                            for n in numbers
  the idea of float('inf') -  when you want the largest/lowest possible starting number to compare to.                                         e.g. small, second = float('inf'), float('inf')                   if n < small:   
  simultaneous (parallel) assignment - pythonic way to swap without a temp, loop with enumerate, return functions and update two related variables atomically.                   e.g.                               second, small = small, n
+
  lambda - If you know you wont use a function again then its cleaner to use lambda instead of a def block
 
 (return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
