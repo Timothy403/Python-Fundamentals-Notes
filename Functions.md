@@ -1,6 +1,6 @@
 ### Clear and alphabetically ordered notes to quickly check
 
-- abs() = Distance from 0, negative integer/variable into positive
+- _abs()_ = Distance from 0, negative integer/variable into positive
 - capitalize = Uppercase the first character
 + .copy = Makes a copy of a variable. Safeguards .remove and .append sideaffects.
 - enumerate =  Loop over an iterable and return its (index, item) works with more than just lists.
