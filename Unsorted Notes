@@ -3,19 +3,19 @@
 I will probably go back to my other notes and try to make them more concise, this file can store my messy thought/learning process.
 
 ### Revise
- isinstance() 
- ZeroDivisionError: division by zero   = if not numbers:
- enumerate (index loop)
- .join()
- capitalize vs upper
- max and min
- abs()   
- type
- str/int/list, how to change one into the other
- .replace  
- heapq instead of sort
- .copy to makeup for .remove 
- the idea of float('inf')
+ isinstance() - can check classes as well as subclasses, you use it to check if data was inputed in the type you wanted or to do two different things based on data type.
+ ZeroDivisionError - division by zero   = if not numbers:
+ enumerate (index loop) - Loop over an iterable and return the item as well as its index, avoids manual counters and works with more than just lists.
+ .join() - joins strings using a seperator, using '' as a "seperator" just squishes them together. 
+ capitalize vs upper - capitalize converts the first character of a string into uppercase, upper converts all. 
+ max and min -
+ abs() -
+ type -
+ str/int/list, how to change one into the other -
+ .replace -
+ heapq instead of sort -
+ .copy to makeup for .remove -
+ the idea of float('inf') -
  
 
 (return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
