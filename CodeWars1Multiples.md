@@ -27,7 +27,7 @@ def solution(number):
 
 - I think this is stupidly simple but need to be noted..
 You make a variable and make it = to 0 so it can exist and be empty and then in a loop you can use it as a sort of counter or storage by saying:
-"x = x" and then some operation after it.
+"x = x" and then some operation after it. variable = 1 for multiplication
 ```Python
 total_sum = 0
 total_sum = total_sum + current_number
