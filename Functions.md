@@ -10,5 +10,5 @@
 - __.join()__ = joins strings using a seperator, using '' as a "seperator" just squishes them together. 
 + __lambda__ = Small, one use, one line, Def.
 - __max/min__ = Highest/Lowest of an iterable, Key possible e.g. = print(max(words, key=len))
-+ __.replace__ =  original.replace(old, new[, count]). Can remove spaces in a string by using *variable.replace(" ", "")*
-- __upper/lower__ = Changes an entire string into upper or lowercase.
++ __.replace()__ =  original.replace(old, new[, count]). Can remove spaces in a string by using *variable.replace(" ", "")*
+- __.upper()/.lower()__ = Changes an entire string into upper or lowercase.
