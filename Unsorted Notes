@@ -13,6 +13,7 @@ I will probably go back to my other notes and try to make them more concise, thi
  type
  str/int/list, how to change one into the other
  .replace  
+ heapq instead of sort
 
 (return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
 
@@ -23,3 +24,5 @@ If you want to strip all whitespace in a string (\t, \n, etc.), use split()+join
 any comparison operator ( >, <, ==, != ) returns a boolean value so "True" and *if* are not needed in this example, return True if bullets >= dragons * 2 else False
 
 thinking about time complexity, comparing different solutions based on their readability and time complexity
+
+no need to write [0:2], you can just write [:2]
