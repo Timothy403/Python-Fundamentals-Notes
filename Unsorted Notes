@@ -14,6 +14,9 @@ I will probably go back to my other notes and try to make them more concise, thi
  str/int/list, how to change one into the other
  .replace  
  heapq instead of sort
+ .copy to makeup for .remove 
+ the idea of float('inf')
+ 
 
 (return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
 
@@ -26,3 +29,4 @@ any comparison operator ( >, <, ==, != ) returns a boolean value so "True" and *
 thinking about time complexity, comparing different solutions based on their readability and time complexity
 
 no need to write [0:2], you can just write [:2]
+
