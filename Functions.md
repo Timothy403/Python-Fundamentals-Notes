@@ -2,7 +2,7 @@
 
 - __abs()__ = Distance from 0, negative integer/variable into positive
 - __capitalize__ = Uppercase the first character. 
-+ __.copy = Makes__ a copy of a variable. Safeguards .remove and .append sideaffects.
++ __.copy__ = Make a copy of a variable. Safeguards .remove and .append sideaffects.
 - __enumerate__ =  Loop over an iterable and return its (index, item) works with more than just lists.
 + __heapq__ = Quicker alternative to sort, O(n) instead of O(n log n), -------- small1, small2 = heapq.nsmallest(k, iterable)  default = ascending order, Key possible e.g. = (2, iterable, key=len)      (Import)
 - __isinstance()__ = Check class/subclass type. Safeguard or differentiate inputs.
