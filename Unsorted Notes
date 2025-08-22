@@ -18,7 +18,7 @@
 
  abs() - gives you the distance from 0 so you can use it to make a negative number positive since you can't use + the same way you can use -
 
- type - 
+ TYPE - 
 
  str/int/list, how to change one into the other -
 
@@ -30,7 +30,7 @@
  the idea of float('inf') -  when you want the largest/lowest possible starting number to compare to.                                         e.g. small, second = float('inf'), float('inf')                   if n < small:   
  simultaneous (parallel) assignment - pythonic way to swap without a temp, loop with enumerate, return functions and update two related variables atomically.                   e.g.                               second, small = small, n
 
- lambda - If you know you wont use a function again then its cleaner to use lambda instead of a def block
+ LAMBDA - If you know you wont use a function again then its cleaner to use lambda instead of a def block
 
 (return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
 
