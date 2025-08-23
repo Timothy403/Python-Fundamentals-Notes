@@ -49,6 +49,7 @@ no need to write [0:2], you can just write [:2]
 for loop can have a step: for i in range(0, 100, 10) goes up to 100 by increments of 10 instead of the default 1 and ends up at 90 not 100, you can also do negative steps (10, 0, -1)          start:stop:step
 or if you want to reverse the range you can also do: for i in reversed(range(10, 21))
 
+make loops readable,  make the temporary variable          x:integer  d:digit   c:character    i:index
 ###################################
 
 
