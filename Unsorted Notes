@@ -1,24 +1,14 @@
-### Repeated notes or notes that will be sorted in the future
+### notes that will be sorted in the future
 
- I will probably go back to my other notes and try to make them more concise, this file can store my messy thought/learning process.
+ I will go back to my other notes and try to make them more concise, this file can store my messy thought/learning process.
 
 ### Revise     KATA Sum of two lowest positive integers 
 
-
-
- ZeroDivisionError - division by zero   = if not numbers:
-
  str/int/list, how to change one into the other -
-
- .replace - replaces old with(,) new     new = original.replace(old, new[, count])     can remove spaces in a string by using     variable.replace(" ", "")
 
  import heapq (instead of using sort) - O(n) instead of O(n log n), small1, small2 = heapq.nsmallest(k, iterable)   Can also use a key such as (2, iterable, key=len)   default = ascending order
 
- .copy to makeup for .remove - .remove and .append mutate your original, use .copy before and use that if you want to leave the original intact                                                            for n in numbers
- the idea of float('inf') -  when you want the largest/lowest possible starting number to compare to.                                         e.g. small, second = float('inf'), float('inf')                   if n < small:   
- simultaneous (parallel) assignment - pythonic way to swap without a temp, loop with enumerate, return functions and update two related variables atomically.                   e.g.                               second, small = small, n
-
- LAMBDA - If you know you wont use a function again then its cleaner to use lambda instead of a def block
+ simultaneous (parallel) assignment - pythonic way to swap without a temp, loop with enumerate, return functions and update two related variables atomically. 
 
 #############################################################################################################################################################################################################################################
 (return "odd" if sum(arr) % 2 else "even") - This works because 0 is "falsy" and any other integer is naturally "truthy, so if truthy it must not be divisible by 2 therefore it is odd
