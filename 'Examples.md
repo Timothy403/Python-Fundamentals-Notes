@@ -32,3 +32,8 @@ for x in digitstring:
         filtered.append(x)
 return filtered
 ```
+### ("abcd") -> "A-Bb-Ccc-Dddd"
+```Python
+return ("-".join(x.upper() + x.lower() * i for i, x in enumterate(text)))
+```
+###
