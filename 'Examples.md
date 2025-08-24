@@ -12,11 +12,25 @@ def report_long_words(words):
             continue
     worded = ", ".join(word_list)
     return f"These words are quite long: {worded}"
-```
-### Difficult List comprehension for it
-```Python
+
+####################################################################################################
+
 def report_long_words(words):
   processed = [w[:15] + "..." if len(w) > 15 else w for w in words if len(w) > 10 and "-" not in w]
        joined = ", ".join(processed)
        return f"These words are quite long: {joined}"
+```
+### List filter:    digits from strings
+```Python
+return [x for x in digitstring if type(x) == int]
+
+##########################################################################
+
+return [x for x in digitstring if isinstance(x, int)
+
+filtered = []
+for x in digitstring:
+    if isinstance(x, int)           #######    if type(x) == int:
+        filtered.append(x)
+return filtered
 ```
