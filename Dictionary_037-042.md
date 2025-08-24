@@ -24,7 +24,7 @@ dict = {}
     if item not in dict:
         dict[item] = 1
     else:
-        dict[item] = dict[n] + 1
+        dict[item] = dict[item] + 1
   return dict
 ```
 
