@@ -22,11 +22,9 @@ def report_long_words(words):
 ```
 ### List filter:    digits from strings
 ```Python
-return [x for x in digitstring if type(x) == int]
+return [x for x in digitstring if type(x) == int]      #######  isinstance(x, int)
 
 ##########################################################################
-
-return [x for x in digitstring if isinstance(x, int)
 
 filtered = []
 for x in digitstring:
