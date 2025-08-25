@@ -26,7 +26,7 @@ Insertion and updating
 - data["x"] = 1     is inserting a new key     {"x": 1}
 - after,  data["x"] = 5      updating the value of the same key    {"x": 5}
 - ```Python      
-  for item in  ["a",  "b", "c", "a"]:
-    data[item] = data.get(item, 0) + 1     # get finds it, need the = to actually change the value of that item key
-                                           # get(item   gets the value, +1 adds onto it, for that specific key, "a" is brought up twice (same key) so its value gets +1 twice (2)
+  for item in  ["a",  "b", "c", "a"]:      # get finds it, need the = to actually change the value of that item key
+    data[item] = data.get(item, 0) + 1     # get(item   gets the value, +1 adds onto it, for that specific key,
+  return data # = "a": 2, "b": 1  etc       #"a" is brought up twice (same key) so its value gets +1 twice (2)
   ```
