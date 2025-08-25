@@ -1,4 +1,17 @@
-### Long words / Challenge 1
+### Perfect Crab Dictionary and Challenge 1
+
+## Dictionary counter
+```Python
+def count_words_by_length(words):
+    letter_count = {}
+    for word in words:
+        if len(word) not in letter_count:        #
+         letter_count[len(word)] = 1             # l = len(c)
+        else:                                    # letter_count[l] = letter_count.get(l, 0) + 1   
+            letter_count[len(word)] += 1         #
+    return letter_count
+```
+## Long words / Challenge 1
 ```Python
 def report_long_words(words):
     word_list = []
@@ -20,7 +33,8 @@ def report_long_words(words):
        joined = ", ".join(processed)
        return f"These words are quite long: {joined}"
 ```
-### List filter:    digits from strings
+### Katas
+## List filter:    digits from strings
 ```Python
 return [x for x in digitstring if type(x) == int]      #######  isinstance(x, int)
 
@@ -32,22 +46,22 @@ for x in digitstring:
         filtered.append(x)
 return filtered
 ```
-### ("abcd") -> "A-Bb-Ccc-Dddd"
+## ("abcd") -> "A-Bb-Ccc-Dddd"
 ```Python
 return ("-".join(x.upper() + x.lower() * i for i, x in enumterate(text)))
 ```
-### String to array
+## String to array
 ```Python
 return string.split() #or# string.split(' ')
 ```
-### Simple map()  No.2 from highest and lowest Kata
+## Simple map()  No.2 from highest and lowest Kata
 ```Python
 list(map(int, str(n))) # a list of single digits from a larger number
 list(map(int, n.split())) # splitting a white spaced numbers into single integers and then listing them
 list(map(int, num) # turning a list of digit strings into a list of integers
 # map can also apply upper and len, etc.
 ```
-### nth term + 2 decimal places
+## nth term + 2 decimal places
 ```Python
 def nth_term(n) -> str:
     total = 0.0
@@ -57,7 +71,7 @@ def nth_term(n) -> str:
     divisor += 3
 return f"{total:.2f}"
 ```
-### Capitalize all words in a string
+## Capitalize all words in a string
 ```Python
 def to_jaden_case(string):
     capitalized = []
@@ -67,7 +81,7 @@ def to_jaden_case(string):
 
     return " ".join(capitalized)
 ```
-### Using set for Isograms
+## Using set for Isograms
 ```Python
 def is_isogram(string):
     string = string.lower()
@@ -77,7 +91,7 @@ def is_isogram(string):
     else:
          return False
 ```
-### Dictionary used as stock checker
+## Dictionary used as stock checker
 ```Python
 def fillable(stock, merch, n):
     for item in stock:
@@ -86,12 +100,12 @@ def fillable(stock, merch, n):
         else:
              continue
 ```
-### multiple squared digits joined (not added) from one original number
+## multiple squared digits joined (not added) from one original number
 ```Python
 joinable = (str(int(x) ** 2) for x in str(num))         #needs to be an int while calculating and a string while placing together (not addition) 
     return int("".join(joinable))
 ```
-### two smallest numbers in an array
+## two smallest numbers in an array
 ```Python
 def sum_two_smallest_numbers(numbers):
     smallest = float('inf') 
@@ -103,7 +117,7 @@ def sum_two_smallest_numbers(numbers):
             second = d
     return smallest + second     #or# return sum(sorted(numbers)[:2])
 ```
- ### "8 j 8   mBliB8g  imjB8B8  jl  B" -> "8j8mBliB8gimjB8B8jlB"
+ ## "8 j 8   mBliB8g  imjB8B8  jl  B" -> "8j8mBliB8gimjB8B8jlB"
  ```Python
 return "".join(s.split()) #or# s.replace(" ", "")
 ```
