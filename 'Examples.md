@@ -133,16 +133,16 @@ def sort_dict(d):
         max_key = None
         
         for k in remaining:         #check/iterate through all the keys
-            v = remaining[k]                    #first pass 
+            v = remaining[k]                    #first pass always takes v and is max_val as greater than none
             
-            if max_val is None or v > max_val:         #adds the first value as it much be larger
-                max_key = k                           # after looping through every v (value), or maybe just the first if it was the biggest
-                max_val = v                           # you have your largest value and coresponding key and those are ready to be appended
+            if max_val is None or v > max_val:     #every later iteration the new v is compared to old max_val
+                max_key = k                    # after looping through every v (value), or maybe just the first if it was the biggest
+                max_val = v                # you have your largest value and coresponding key and those are ready to be appended
             
         result.append((max_key, max_val))       #adding that loops largest value to the list
         
-        del remaining[max_key]      # one largest value has been extracted, now you need to remove it so the second loop can find what the second biggest value is
-        
+        del remaining[max_key]         # one largest value has been extracted,
+                                       # now you need to remove it so the second loop can find what the second biggest value is
     return result
 ```
 
