@@ -1,0 +1,36 @@
+Strings
+
+s.strip([chars]) → remove leading/trailing whitespace (or any of chars)
+s.split([sep]) → list of fields (default: whitespace)
+s.replace(old, new[, count]) → new string, replacing occurrences
+sep.join(list_of_str) → glue strings with sep between them
+f-strings: f"{var} text" for easy interpolation
+case: s.upper(), s.lower(), s.capitalize(), s.title(), s.count(sub), s.index(sub)
+Lists
+
+l.append(x), l.remove(x), l.pop([i]), l.copy()
+l.count(x), l.index(x[, start[, end]])
+slicing: l[::-1] to reverse, l[a:b:c] for general steps
+comprehensions: [f(x) for x in seq if cond]
+Dictionaries
+
+Creation: {}, dict(), or {k:v, …}
+Lookup: d[key] vs. d.get(key, default)
+Insert/update: d[key] = value, counting with d[key] = d.get(key,0)+1
+Deletion: del d[key], d.pop(key[, default])
+Iteration:
+Methods: d.keys(), d.values(), d.items(), d.copy(), d.update(other)
+Control flow & built-ins
+
+Loops: for x in seq:, while cond:
+Branches: if/elif/else
+len(x), range(n), print(), input(), int()/str()/float()
+Sorting & pairing
+
+Manual “find-max” pull-loop (selection sort style)
+sorted(iterable, key=lambda x: …, reverse=True)
+zip(a, b) → iterate pairs from two lists
+Alternative filters/transforms
+
+Comprehensions > loops for simple map/filter
+You can use filter(func, iterable) or map(func, iterable) but list/generator comprehensions are more idiomatic
