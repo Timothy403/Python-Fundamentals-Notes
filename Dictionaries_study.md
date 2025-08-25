@@ -1,7 +1,7 @@
 Creation:
    
-- d1 = {}           #empty
-- d2 = dict()       #empty
+- d1 = {}      ----->     #empty dictionary
+- d2 = dict()    ----->   #empty dictionary
 
   #adding
 - scores = {"alice": 10, "bob": 12}  (adds new keys and maps values to them)
