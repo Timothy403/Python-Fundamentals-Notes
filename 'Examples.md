@@ -57,4 +57,13 @@ def nth_term(n) -> str:
     divisor += 3
 return f"{total:.2f}"
 ```
+### Capitalize all words in a string
+```Python
+def to_jaden_case(string):
+    capitalized = []
+    splittext   = string.split()
+    for w in splittext:
+        capitalized.append(w.capitalize())
 
+    return " ".join(capitalized)
+```
