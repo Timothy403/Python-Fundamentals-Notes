@@ -37,3 +37,10 @@ for item in num:
   dict[item] = dict.get(item, 0) + 1
 return dict
 ```
+
+.get(key[, default]) – like d[key] but returns default instead of KeyError
+• .pop(key[, default]) – remove & return d[key] or default if missing
+• .items() – iterable of (key, value) pairs
+• .keys() – iterable of keys
+• .values() – iterable of values
+• .copy() – shallow copy
