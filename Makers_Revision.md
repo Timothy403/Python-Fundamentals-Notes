@@ -1,9 +1,9 @@
-###Functions and more
+### Functions and more
 
 - strip()
 + replace()
 
-###list modification
+### list modification
 
 *  .count()
 *  .index()
