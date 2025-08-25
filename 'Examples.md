@@ -169,6 +169,11 @@ def get_grade(s1, s2, s3):
     elif score >= 70:
         return 'C'
     elif score >= 60:
+
+array not including min and max values
+```Python
+return sum(arr) - max(arr) - min(arr)
+```
         return 'D'
     else:
         return 'F'
