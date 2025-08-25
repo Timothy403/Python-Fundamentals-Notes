@@ -1,15 +1,18 @@
 ###Functions and more
 
-strip()
-replace()
+- strip()
++ replace()
 
-* list modification
+###list modification
+
 *  .count()
 *  .index()
 *  .remove()
 *  .append()
 *  .copy()
-  
+
+-
+
 * string
 * .join
 *  /n
