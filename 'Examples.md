@@ -158,4 +158,18 @@ def sort_dict(d):
   return sorted(d.items(), key=lambda x: x[1], reverse=True)       #not mine (CodeWars) but this seems a lot more simple... need to learn lambda next
 
 ```
-
+### Old CodeWars challenges that I have done
+```Python
+def get_grade(s1, s2, s3):
+    score = (s1 + s2 + s3) / 3
+    if score >= 90:
+        return 'A'
+    elif score >= 80:
+        return 'B'
+    elif score >= 70:
+        return 'C'
+    elif score >= 60:
+        return 'D'
+    else:
+        return 'F'
+```
