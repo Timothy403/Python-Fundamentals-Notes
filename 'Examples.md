@@ -67,3 +67,13 @@ def to_jaden_case(string):
 
     return " ".join(capitalized)
 ```
+### Using set for Isograms
+```Python
+def is_isogram(string):
+    string = string.lower()
+    set_check = set(string)
+    if len(string) == len(set_check):
+         return True 
+    else:
+         return False
+```
