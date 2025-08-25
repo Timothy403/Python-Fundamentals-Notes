@@ -40,3 +40,10 @@ return ("-".join(x.upper() + x.lower() * i for i, x in enumterate(text)))
 ```Python
 return string.split() #or# string.split(' ')
 ```
+### Simple map()
+```Python
+list(map(int, str(n))) # a list of single digits from a larger number
+list(map(int, n.split())) # splitting a white spaced numbers into single integers and then listing them
+list(map(int, num) # turning a list of digit strings into a list of integers
+# map can also apply upper and len, etc.
+```
