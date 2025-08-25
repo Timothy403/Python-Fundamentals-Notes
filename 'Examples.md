@@ -86,3 +86,11 @@ def fillable(stock, merch, n):
         else:
              continue
 ```
+### multiple squared digits joined (not added) from one original number
+```Python
+joinable = (str(int(x) ** 2) for x in str(num))         #needs to be an int while calculating and a string while placing together (not addition) 
+    return int("".join(joinable))
+```
+
+
+
