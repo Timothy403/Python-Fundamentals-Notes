@@ -186,3 +186,8 @@ difference between 2 arrays
 def array_diff(a, b):
     return [x for x in a if x not in b]
 ```
+Reversed array
+```Python
+def digitize(n):
+    return [int(x) for x in str(n)[::-1]]
+```
