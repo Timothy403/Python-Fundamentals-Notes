@@ -91,6 +91,21 @@ def fillable(stock, merch, n):
 joinable = (str(int(x) ** 2) for x in str(num))         #needs to be an int while calculating and a string while placing together (not addition) 
     return int("".join(joinable))
 ```
-
+### two smallest numbers in an array
+```Python
+def sum_two_smallest_numbers(numbers):
+    smallest = float('inf') 
+    second = float('inf')
+    for d in numbers:
+        if d < smallest:
+            smallest, second = d, smallest
+        elif d < second:
+            second = d
+    return smallest + second     #or# return sum(sorted(numbers)[:2])
+```
+ ### "8 j 8   mBliB8g  imjB8B8  jl  B" -> "8j8mBliB8gimjB8B8jlB"
+ ```Python
+return "".join(s.split()) #or# s.replace(" ", "")
+```
 
 
