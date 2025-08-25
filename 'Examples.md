@@ -38,5 +38,5 @@ return ("-".join(x.upper() + x.lower() * i for i, x in enumterate(text)))
 ```
 ### String to array
 ```Python
-string.split()
+return string.split()
 ```
