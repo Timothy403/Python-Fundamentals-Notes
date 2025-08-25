@@ -34,9 +34,11 @@ def report_long_words(words):
        return f"These words are quite long: {joined}"
 ```
 ### Simple count Kata
-```Python        #my_list.count(value) → int
+```Python
+                      #my_list.count(value) → int  
 def count_sheeps(arrayOfSheeps):    # in this case the array is True,True,False,
-  return arrayOfSheeps.count(True)  # it can be any other iterable, like a letter in a string
+  return arrayOfSheeps.count(True)  # it can be any other iterable, like a word in a list or letter in a string
+
 ```
 ### Katas
 ## List filter:    digits from strings
