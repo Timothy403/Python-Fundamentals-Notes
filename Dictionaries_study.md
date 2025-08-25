@@ -12,3 +12,10 @@ Adding:
 - scores["tim"]  -> KeyError
 
 Testing presence:
+- if "carol" in scores:
+-   print("found carol")
+- else:
+-   print("could not find carol")
+
+Safe access with .get()
+-
