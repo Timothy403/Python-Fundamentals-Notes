@@ -77,3 +77,12 @@ def is_isogram(string):
     else:
          return False
 ```
+### Dictionary used as stock checker
+```Python
+def fillable(stock, merch, n):
+    for item in stock:
+        if item == merch:                 #item aka key in stock    
+            return stock[item] >= n           # return stock.get(merch, 0) >= n         
+        else:
+             continue
+```
