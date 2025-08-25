@@ -144,5 +144,11 @@ def sort_dict(d):
         del remaining[max_key]         # one largest value has been extracted,
                                        # now you need to remove it so the second loop can find what the second biggest value is
     return result
+
+########################################
+
+def sort_dict(d):
+  return sorted(d.items(), key=lambda x: x[1], reverse=True)       #not mine (CodeWars) but this seems a lot more simple... need to learn lambda next
+
 ```
 
