@@ -47,3 +47,14 @@ list(map(int, n.split())) # splitting a white spaced numbers into single integer
 list(map(int, num) # turning a list of digit strings into a list of integers
 # map can also apply upper and len, etc.
 ```
+### nth term
+```Python
+def nth_term(n) -> str:
+    total = 0.0
+    divisor = 1
+    for _ in range(n)
+    total = total + 1 / divisor
+    divisor += 3
+return f"{total:.2f}"
+```
+
