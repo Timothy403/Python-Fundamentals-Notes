@@ -47,7 +47,7 @@ list(map(int, n.split())) # splitting a white spaced numbers into single integer
 list(map(int, num) # turning a list of digit strings into a list of integers
 # map can also apply upper and len, etc.
 ```
-### nth term
+### nth term + 2 decimal places
 ```Python
 def nth_term(n) -> str:
     total = 0.0
