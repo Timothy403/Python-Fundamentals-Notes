@@ -23,8 +23,8 @@ Safe access with .get()
 
 Insertion and updating:
 - data = {}
-- data["x"] = 1     is inserting a new key     {"x": 1}
-- after,  data["x"] = 5      updating the value of the same key    {"x": 5}
+- data["x"] = 1 ------->   is inserting a new key     {"x": 1}
+- after,  data["x"] = 5  ---------->    updating the value of the same key    {"x": 5}
 - ```Python      
   for item in  ["a",  "b", "c", "a"]:      # get finds it, need the = to actually change the value of that item key
     data[item] = data.get(item, 0) + 1     # get(item   gets the value, +1 adds onto it, for that specific key,
