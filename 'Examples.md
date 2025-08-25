@@ -52,7 +52,7 @@ list(map(int, num) # turning a list of digit strings into a list of integers
 def nth_term(n) -> str:
     total = 0.0
     divisor = 1
-    for _ in range(n)
+    for _ in range(n)                      _ can be used when you dont need to use the temporary variable again
     total = total + 1 / divisor
     divisor += 3
 return f"{total:.2f}"
@@ -61,7 +61,7 @@ return f"{total:.2f}"
 ```Python
 def to_jaden_case(string):
     capitalized = []
-    splittext   = string.split()
+    splittext   = string.split()        #splits strings by whitespace as default
     for w in splittext:
         capitalized.append(w.capitalize())
 
@@ -71,7 +71,7 @@ def to_jaden_case(string):
 ```Python
 def is_isogram(string):
     string = string.lower()
-    set_check = set(string)
+    set_check = set(string)             #sets can only have unique elements
     if len(string) == len(set_check):
          return True 
     else:
