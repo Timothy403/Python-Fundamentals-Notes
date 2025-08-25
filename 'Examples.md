@@ -171,10 +171,18 @@ def get_grade(s1, s2, s3):
     elif score >= 60:
 
 array not including min and max values
+
 ```Python
 return sum(arr) - max(arr) - min(arr)
 ```
         return 'D'
     else:
         return 'F'
+```
+
+difference between 2 arrays
+
+```Python
+def array_diff(a, b):
+    return [x for x in a if x not in b]
 ```
