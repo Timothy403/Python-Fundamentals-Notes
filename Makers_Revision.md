@@ -4,15 +4,15 @@ strip()
 replace()
 
 * list modification
-  .count()
-  .index()
-  .remove()
-  .append()
-  .copy()
+*  .count()
+*  .index()
+*  .remove()
+*  .append()
+*  .copy()
   
 * string
-  .join
-  /n
-  fstring
+* .join
+*  /n
+*  fstring
 
 
