@@ -33,6 +33,11 @@ def report_long_words(words):
        joined = ", ".join(processed)
        return f"These words are quite long: {joined}"
 ```
+### Simple so remember
+```Python
+def count_sheeps(arrayOfSheeps):    # in this case the array is True,True,False,
+  return arrayOfSheeps.count(True)  # it can be any other iterable, like a letter in a string
+```
 ### Katas
 ## List filter:    digits from strings
 ```Python
