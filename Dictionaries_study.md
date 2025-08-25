@@ -18,8 +18,8 @@ Testing presence:
 -   print("could not find carol")
 
 Safe access with .get()
-- scores.get("key")   # = None     safe because doesn't crash/error
-- scores.get("key", 0))   # = 0
+- scores.get("key")   -------> = None     safe because doesn't crash/error
+- scores.get("key", 0))   ------> = 0
 
 Insertion and updating:
 - data = {}
