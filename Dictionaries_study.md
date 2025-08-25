@@ -1,9 +1,9 @@
-### Creation
-Empty:
+Creation:
+  #empty
 - d1 = {} 
 - d2 = dict()
 
-Adding:
+  #adding
 - scores = {"alice": 10, "bob": 12}  (adds new keys and maps values to them)
 
  Membership
